@@ -86,6 +86,20 @@ ul li::before {
     left: 0;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, var(--primary-color), #34495e);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: opacity 0.1s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
 @media print {
     body {
         max-width: 100%;
